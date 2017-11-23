@@ -8,7 +8,9 @@ keyword: "Computer Vision, NLP, Machine Learning"
 url: ""              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
-
+# Time Zone setting, very important for post to be shown correctly due to time zone settings of Ruby
+# enter time definition file name under /../ruby/../gems/../tzinfo/data
+timezone: Asia/Shanghai
 
 # SNS settings
 RSS: false
@@ -18,7 +20,6 @@ github_username:    xieshuaix
 #twitter_username:
 #facebook_username:
 linkedin_username:  shuai-xie-4b654073
-
 
 
 # Build settings
