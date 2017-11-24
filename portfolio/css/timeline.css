@@ -39,28 +39,19 @@ body, html {
 	padding: 0;
 	list-style: none;
 	position: relative;
-	max-width: 600px;
+	max-width: 500px;
 	margin: 0 auto;
+	/*This controls how far the first card is below the header*/
 	margin-top: -120px;
 }
 
 .cbp_tmtimeline > li {
 	position: relative;
 	box-sizing: border-box;
+	/*This controls how card appears (i.e. as listed item or grided items)*/
 	display: inline-block;
 	vertical-align: top;
 	width: 100%;
-}
-
-/* The date/time */
-.cbp_tmlabel time {
-	font-size: 1.0em;
-	position: absolute;
-	top: 0px;
-	line-height: 64px;
-	right: 5px;
-	margin-right: 1em;
-	color: #a5a7aa;
 }
 
 /* The Duoshuo */
@@ -76,18 +67,31 @@ body, html {
 	position: relative;
 	border-radius: 3px;
 	border: 1px solid #edeeee;
+	/*this controls distance between cards*/
 	margin: 0 0 30px 0;
 	font-weight: 400;
 	font-size: 95%;
 }
 
+/*Card header - title*/
 .cbp_tmtimeline > li .cbp_tmlabel h2 {
 	font-weight: bold;
 	font-size: 15px;
 	padding: 14px 20px;
 	margin: 0;
-	height: 64px;
-	line-height: 36px;
+	height: 50px;
+	line-height: 25px;
+}
+
+/*Card header - date&time*/
+.cbp_tmtimeline > li .cbp_tmlabel time {
+	font-size: 1.0em;
+	position: absolute;
+	top: 0px;
+	line-height: 50px;
+	right: 5px;
+	margin-right: 1em;
+	color: #a5a7aa;
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
@@ -190,6 +194,7 @@ body, html {
 .navbar-custom .navbar-brand:hover {color:#777;}
 .navbar-default .navbar-toggle .icon-bar {background-color:#777;}
 
+/*Page*/
 html{
 	font-size: 90%;
 }
@@ -205,12 +210,16 @@ header{
 	border-bottom: 1px solid #edeeee;
 }
 header h1 {
-    font-size: 70px;
+    font-size: 35px;
     font-weight: 700;
-    margin-top: 26px;
+    margin-top: 20px;
     margin-bottom: 10px;
     line-height: 1;
 }
+header img{
+	/*Settings here will force render header image*/
+}
+/*Seetmingly useless*/
 header p{
 	text-align: center;
 	color: #252728;
@@ -220,10 +229,8 @@ header p{
 	font-weight: 300;
 	margin: 1.7em;
 }
-header img{
-	width: 175px;
-}
 
+/*Card*/
 .cbp_tmlabel .hux_ul{
 	border:none;
 	padding:0;
@@ -234,28 +241,30 @@ header img{
 	margin: 0;
 	list-style: none;
 }
-
 .cbp_tmlabel img{
 	width: 100%;
 	margin-bottom: 1em;
 	border-top: 1px solid #eeefef;
 	border-bottom: 1px solid #eeefef;
 }
-
+/*Seemingly useless*/
 .cbp_tmlabel p{
     padding: 1em 0;
 	/*text-indent: 2em;*/
     margin: 0 1.5em;
     border-top: 1px solid rgba(255,255,255,0.4);
 }
+/*Card content frame 1(Put image before ul to make image more immersive and boundary-less)*/
 .cbp_tmlabel ul{
     padding: 0em 0;
     margin: 0 1.5em;
     list-style: none;
 }
+/*Card content frame 2 (i.e. for text)*/
 .cbp_tmlabel ul li{
     padding: 0.5em 0;
 }
+/*Card footer*/
 .cbp_tmlabel ul li.skill{
 	overflow: auto;
 	margin-top: 9px;
