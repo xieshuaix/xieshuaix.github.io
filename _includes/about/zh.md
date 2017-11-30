@@ -10,5 +10,3 @@
 * 机器学习 (Bayes, Markov chain, 聚类算法, 决策树, etc.)
 
 Projects页上列出了我我过去的一些研究课题, 欢迎浏览交流.
-
-这个小站是用Jekyll和GitHub Pages搭建的.

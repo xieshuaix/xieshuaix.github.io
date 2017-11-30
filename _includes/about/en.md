@@ -9,6 +9,4 @@ My academic interests include:
 * Natural Language Processing (translation, abstraction, classification, etc.)
 * Machine Learning (Bayesian inference, Markov Chain, clustering, decision tree, etc.)
 
-Please feel free to view my highlighted projects on "Project" page.
-
-This site is built using Jekyll and is hosted on GitHub.
+Please feel free to view my highlighted projects on the "Project" page.

@@ -27,14 +27,15 @@ linkedin_username:  shuai-xie-4b654073
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+paginate_path: "/blog/page:num/"
+exclude: ["_backup","less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 
 
@@ -86,12 +87,12 @@ service-worker: true
 
 
 # Friends
-# friends: [
-#     {
-#         title: "Su",
-#         href: "http://su.gallery/"
-#     },{
-#         title: "乱序",
-#         href: "http://mida.re/"
-#     }
-# ]
+friends: [
+    {
+        title: "Su",
+        href: "http://su.gallery/"
+    },{
+        title: "乱序",
+        href: "http://mida.re/"
+    }
+]
