@@ -89,10 +89,10 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Su",
-        href: "http://su.gallery/"
+        title: "Stanford Course On CNN",
+        href: "http://cs231n.github.io/"
     },{
-        title: "乱序",
-        href: "http://mida.re/"
+        title: "Stanford Course On Machine Learning",
+        href: "https://www.coursera.org/learn/machine-learning"
     }
 ]
