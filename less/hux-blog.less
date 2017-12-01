@@ -80,7 +80,7 @@ img.shadow{
 }
 // Utils Style End
 
-// Select 
+// Select
 select{
 	-webkit-appearance:none;
 	margin-top:15px;
@@ -125,7 +125,7 @@ pre code{
 
 // In the post.
 .post-container{
-	a{	
+	a{
 		// display: inline-block;
 		// safari has bugs on word-break on inline elements.
 		color:#337ab7;
@@ -213,7 +213,7 @@ pre code{
 	 * which would cover tags. A absolute positioning make a new layer.
 	 */
 	.navbar-default .navbar-collapse{
-		position: absolute; 
+		position: absolute;
      	right: 0;
 		border: none;
 		background: white;
@@ -226,7 +226,7 @@ pre code{
 	 * Animation
 	 * HuxBlog-Navbar using genuine Material Design Animation
 	 */
-	#huxblog_navbar{ 	
+	#huxblog_navbar{
 		/**
 		 * Sharable code and 'out' function
 		 */
@@ -402,7 +402,7 @@ pre code{
 .intro-header {
 	background: no-repeat center center;
 	background-color: @gray;
-	background-attachment: scroll;
+	background-attachment: fixed;
 	.background-cover;
 	// NOTE: Background images are set within the HTML using inline CSS!
 	margin-bottom: 0px;  /* 0 on mobile, modify by Hux */
@@ -419,17 +419,18 @@ pre code{
 		}
 	}
 	// masterialize
-	.site-heading{
+	// TODO: Does this overide the site-heading properties above?
+	.site-heading {
 		padding: 95px 0 70px;
 		@media only screen and (min-width: 768px) {
-			padding: 150px 0;
+			padding: 60px 0; /*Originanally 150px 0, I prefer thinner heading*/
 		}
 	}
 	.site-heading,
 	.page-heading {
 		text-align: center;
 		h1 {
-			margin-top: 0;
+			margin-top: 0px;
 			font-size: 50px;
 		}
 		.subheading {
@@ -1026,6 +1027,3 @@ img::-moz-selection {
 .page-fullscreen footer .copyright a:hover{
 	color: #ddd;
 }
-
-
-
